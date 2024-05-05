@@ -1,8 +1,8 @@
 import cv2
 
 # Podemos passar como parametro um path ou um número que indica qual câmera queremos ler
-video_capture = cv2.VideoCapture("assets/mais8k.mp4") # ler o video do path
-# video_capture = cv2.VideoCapture(1) # ler uma webcam 0
+# video_capture = cv2.VideoCapture("5_opencv/assets/mais8k.mp4") # ler o video do path
+video_capture = cv2.VideoCapture(0) # ler uma webcam 0
 
 # Ler um vídeo é diferente de ler uma imagem. Na verdade o video nada mais é do que uma sequencia de imagens (frames)
 # para isso, fazemos um loop para ler todos os frames do video

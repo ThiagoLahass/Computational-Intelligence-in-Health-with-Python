@@ -5,7 +5,7 @@ import cv2
 # O segundo é uma flag que informamos como a imamgem deve ser carregada
 # Os dois modos principais são: cv2.IMREAD_COLOR (default) e cv2.IMREAD_GRAYSCALE
 # Se o path estiver errado, você recebe o erro -215
-img = cv2.imread("assets/goku.png", cv2.IMREAD_COLOR)
+img = cv2.imread("5_opencv/assets/goku.png", cv2.IMREAD_COLOR)
 
 # Método interno do opencv que carrega uma nova janela para mostrar a imagem
 # O primeiro parâmetro é o nome que aparece na janela e o segundo a imagem em si

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video_capture = cv2.VideoCapture(1)
+video_capture = cv2.VideoCapture("5_opencv/assets/pork.mp4")
 
 while True:
     is_ok, frame = video_capture.read()
@@ -31,6 +31,8 @@ while True:
 
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
+
+    cv2.waitKey(1)
 
 video_capture.release() 
 cv2.destroyAllWindows()

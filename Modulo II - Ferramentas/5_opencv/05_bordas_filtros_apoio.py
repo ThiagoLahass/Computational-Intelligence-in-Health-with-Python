@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-obama_img = cv2.imread("assets/obama.jpg")
+obama_img = cv2.imread("5_opencv/assets/obama.jpg")
 cv2.imshow("Obama", obama_img)
 
 # Blurring

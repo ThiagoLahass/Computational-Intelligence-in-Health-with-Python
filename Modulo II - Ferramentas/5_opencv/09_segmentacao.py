@@ -5,7 +5,7 @@ def handle_bar(v):
     pass
 
 # Carregando imagens
-img_rgb = cv2.imread("assets/pork_frame.png")
+img_rgb = cv2.imread("5_opencv/assets/pork_frame.png")
 img_rgb = cv2.resize(img_rgb, None, fx=0.5, fy=0.5)
 img_hsv = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2HSV)
 
